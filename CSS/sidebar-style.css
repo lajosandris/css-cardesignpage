@@ -1,0 +1,16 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+.menu-wrapper{
+    display: block;
+    min-height: 100%;
+}
+
+.sidebar{
+    transform: translate3d(-260px, 0px, 0px);
+    position: absolute;
+    width: 260px;
+    color: #eee;
+    left: 0;
+    height: 100%;
+    transition: all .3s;
+}
