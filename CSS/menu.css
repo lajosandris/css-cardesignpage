@@ -98,7 +98,8 @@ input[name="tab"]{
 
 input[name="tab"]:checked + .tab-content{
     display: block;
-    animation: slide 0.5s; forwards;}
+    animation: slide 0.5s; forwards;
+}
 
 .tab-content.after{
     content: "";
