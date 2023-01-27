@@ -50,6 +50,14 @@ input[data-function*="swipe"]:checked ~ .content {
     transform: translate3d(245px, 0px, 0px);
 }
 
+
+input[data-function*="swipe"]:checked ~ .sidebar {
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+
 input[data-function*="swipe"]:checked ~ .sidebar .tabs-container{
     width: 100%;
 }
+
